@@ -7,6 +7,17 @@ BitShares 2 and corresponding tools.
 Step-By-Step
 ============
 
+If installing on EC2
+-----------------------------
+    
+    sudo yum install -y docker
+    sudo service docker start
+    sudo usermod -a -G docker ec2-user
+    # logout and log back in to allow this to take effect)
+    docker info
+    git clone https://github.com/xeroc/bitshares-docker.git
+    cd bitshares-docker
+
 Running a Full Node
 -------------------
 
