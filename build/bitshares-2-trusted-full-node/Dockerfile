@@ -10,5 +10,8 @@ RUN chmod a+x /start.sh
 EXPOSE 9090
 EXPOSE 8090
 
+##VOLUMN
+VOLUME /data_trusted_node
+
 ## Entry point
 ENTRYPOINT ["/start.sh"]
