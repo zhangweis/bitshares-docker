@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM resin/rpi-raspbian:latest
 MAINTAINER Fabian Schuh <Fabian@cryptonomex.com>
 
 ## Core Utilities
