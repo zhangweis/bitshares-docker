@@ -4,7 +4,9 @@ MAINTAINER Fabian Schuh <Fabian@cryptonomex.com>
 ## Core Utilities
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get install -y build-essential \
+RUN apt-get install -y automake \
+                       ca-certificates \
+                       build-essential \
                        gcc-4.9 \
                        g++-4.9 \
                        cmake \
@@ -22,7 +24,6 @@ RUN apt-get install -y build-essential \
                        libbz2-dev \
                        libicu-dev \
                        python-dev \
-                       ca-certificates \
                        wget
 
 ## Boost 1.57
