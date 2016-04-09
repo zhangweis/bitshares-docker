@@ -22,6 +22,7 @@ RUN apt-get install -y build-essential \
                        libbz2-dev \
                        libicu-dev \
                        python-dev \
+                       ca-certificates \
                        wget
 
 ## Boost 1.57
